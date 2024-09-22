@@ -1,0 +1,152 @@
+.aboutSection {
+  padding: 80px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+}
+
+.aboutMain {
+  width: 500px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.aboutMain p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.btn-area {
+  width: 408px;
+  height: 154px;
+  background-color: #4a4aed;
+  color: #4a4aed;
+  border-radius: 360px;
+}
+
+.aboutContent {
+  width: 744px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.aboutContent h3 {
+  gap: 10px;
+  padding: 10px;
+  color: white;
+  font-size: 2.2rem;
+}
+
+.aboutContent h3 span {
+  color: grey;
+}
+
+.about-btn {
+  width: 188px;
+  height: 64px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.about-btn div {
+  width: 168px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4034eb;
+  border-radius: 360px;
+  padding: 12px 24px;
+  margin: 0;
+  gap: 12px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+  .aboutSection {
+    padding: 40px;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .aboutMain {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutContent {
+    width: 100%;
+  }
+
+  .btn-area {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutSection {
+    width: 100%;
+    padding: 30px;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+  }
+
+  .aboutMain {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutContent {
+    width: 100%;
+    padding: 0;
+    gap: 20px;
+  }
+
+  .aboutContent h3 {
+    font-size: 1.75rem;
+  }
+
+  .btn-area {
+    width: 100%;
+    height: auto;
+  }
+
+  .about-btn {
+    width: 90%;
+  }
+
+  .about-btn div {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .aboutSection {
+    width: 100%;
+    /* padding: 10px; */
+  }
+
+  .aboutContent h3 {
+    font-size: 1.5rem;
+  }
+
+  .aboutMain p {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .about-btn {
+    width: 80%;
+  }
+}
