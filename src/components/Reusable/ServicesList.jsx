@@ -8,13 +8,18 @@ const ServicesList = ({ color1, color2, text }) => {
       style={{ backgroundColor: color1, color: color2 }}
     >
       <div className="serviceListText1">
-        {text}
-
+        {text === "ui/ux design" ? (
+          <div>
+            ui/ux <br /> design
+          </div>
+        ) : (
+          text
+        )}
       </div>
       <div className="serviceListText2">
         We provide digital solutions as Website Design, Mobile App Design,
         Landing Page design, Illustration, Animation, etc that increase
-        company’s values
+        company’s values.
       </div>
     </div>
   );

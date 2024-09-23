@@ -1,0 +1,26 @@
+.leaderListMain {
+  width: 587px;
+  height: 163px;
+  border-radius: 360px;
+  background-color: #4034eb;
+}
+
+/* Responsive Styles */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+}
+
+/* Mobile Landscape (max-width: 768px) */
+@media (max-width: 768px) {
+}
+
+/* Mobile Portrait (max-width: 480px) */
+@media (max-width: 480px) {
+  .leaderListMain {
+    width: 587px;
+    height: 12vh;
+    border-radius: 360px;
+    background-color: #4034eb;
+  }
+}

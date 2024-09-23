@@ -95,7 +95,7 @@ span {
   }
 
   .contentText1, .contentText2 {
-    font-size: 1.4rem; /* Adjust for smaller devices */
+    font-size: 1.2rem; /* Adjust for smaller devices */
     text-align: center;
   }
 
@@ -122,8 +122,11 @@ span {
     text-align: center;
   }
 
-  .contentText1, .contentText2 {
-    font-size: 1.2rem; /* Adjust further for mobile portrait */
+  .contentText1 {
+    font-size: 1.2rem; 
+  }
+  .contentText2 {
+    font-size: .8rem; 
   }
 
   .serviceList {
