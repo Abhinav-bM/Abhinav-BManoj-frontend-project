@@ -1,11 +1,11 @@
-import "../../styles/Reusable/leaderList.css"
+import "../../styles/Reusable/leaderList.css";
 
-const LeaderList = () => {
+const LeaderList = ({bgc, color}) => {
   return (
-    <div className="leaderListMain">
-      
+    <div className="leaderListMain" style={{backgroundColor : bgc}}>
+      <div className="content" style={{backgroundColor : color}} ></div>
     </div>
-  )
-}
+  );
+};
 
-export default LeaderList
+export default LeaderList;

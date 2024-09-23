@@ -1,19 +1,29 @@
 .leaderListMain {
+  border-radius: 360px;
+  display: grid;
+  grid-template-columns: 50% 50%;
   width: 587px;
   height: 163px;
-  border-radius: 360px;
-  background-color: #4034eb;
+}
+.content {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 360px 360px 0px;
+  border-left: none;
+  font-size: 1.5rem;
 }
 
 /* Responsive Styles */
 
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
-    .leaderListMain {
-        width: 587px;
-        height: 18vh;
-        border-radius: 360px;
-      }
+  .leaderListMain {
+    width: 587px;
+    height: 18vh;
+    border-radius: 360px;
+  }
 }
 
 /* Mobile Landscape (max-width: 768px) */

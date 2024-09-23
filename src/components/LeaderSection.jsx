@@ -13,17 +13,17 @@ const LeaderSection = () => {
       <div className="leaderSecList">
         <div className="leaderSecList1">
           <div className="secListOne"></div>
-          <LeaderList />
+          <LeaderList bgc={"#4034eb"} color={"#584EE4"} />
           <div className="secListTwo"></div>
         </div>
         <div className="leaderSecList2">
           <div className="secListThree"></div>
-          <LeaderList />
+          <LeaderList bgc={"#111111"} color={"#151515"} />
           <div className="secListFour"></div>
         </div>
         <div className="leaderSecList3">
           <div className="secListFive"></div>
-          <LeaderList />
+          <LeaderList bgc={"#111111"} color={"#151515"} />
           <div className="secListSix"></div>
         </div>
       </div>
