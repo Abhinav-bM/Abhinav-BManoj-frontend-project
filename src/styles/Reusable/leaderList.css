@@ -9,10 +9,20 @@
 
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
+    .leaderListMain {
+        width: 587px;
+        height: 18vh;
+        border-radius: 360px;
+      }
 }
 
 /* Mobile Landscape (max-width: 768px) */
 @media (max-width: 768px) {
+  .leaderListMain {
+    width: 587px;
+    height: 15vh;
+    border-radius: 360px;
+  }
 }
 
 /* Mobile Portrait (max-width: 480px) */
@@ -21,6 +31,5 @@
     width: 587px;
     height: 12vh;
     border-radius: 360px;
-    background-color: #4034eb;
   }
 }

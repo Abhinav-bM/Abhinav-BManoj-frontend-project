@@ -3,7 +3,7 @@
   padding: 80px 0px;
   display: flex;
   flex-direction: column;
-  gap: 112px;
+  gap: 20vh;
   background-color: black;
 }
 
@@ -105,10 +105,86 @@
 
 /* Tablet (max-width: 1024px) */
 @media (max-width: 1024px) {
+  .leaderSecMain {
+    height: 650px;
+  }
+  .leaderSecText2 {
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2rem;
+  }
+  .leaderSecList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .leaderSecList1 {
+    height: 20vh;
+    display: flex;
+    gap: 10px;
+  }
+
+  .secListOne {
+    width: 450px;
+    height: 18vh;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    border-radius: 0px 360px 360px 0px;
+  }
+  .secListTwo {
+    width: 410px;
+    height: 18vh;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 360px 0px 0px 360px;
+  }
+
+  .leaderSecList2 {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .secListThree {
+    width: 550px;
+    height: 18vh;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    border-radius: 0px 360px 360px 0px;
+  }
+  .secListFour {
+    width: 250px;
+    height: 18vh;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 360px 0px 0px 360px;
+  }
+
+  .leaderSecList3 {
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .secListFive {
+    width: 250px;
+    height: 18vh;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-left: none;
+    border-radius: 0px 360px 360px 0px;
+  }
+  .secListSix {
+    width: 550px;
+    height: 18vh;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 360px 0px 0px 360px;
+  }
 }
 
 /* Mobile Landscape (max-width: 768px) */
 @media (max-width: 768px) {
+  .leaderSecMain {
+    height: 580px;
+  }
   .leaderSecText {
     /* height: 96px; */
     padding: 0px 60px;
@@ -126,11 +202,10 @@
     line-height: 2rem;
   }
 
-
   .leaderSecList {
     display: flex;
     flex-direction: column;
-    gap: 0px;
+    gap: 20px;
   }
 
   .leaderSecList1 {
@@ -141,14 +216,14 @@
 
   .secListOne {
     width: 450px;
-    height: 12vh;
+    height: 15vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
     border-radius: 0px 360px 360px 0px;
   }
   .secListTwo {
     width: 410px;
-    height: 12vh;
+    height: 15vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
   }
@@ -161,14 +236,14 @@
   }
   .secListThree {
     width: 550px;
-    height: 12vh;
+    height: 15vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
     border-radius: 0px 360px 360px 0px;
   }
   .secListFour {
     width: 250px;
-    height: 12vh;
+    height: 15vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
   }
@@ -181,18 +256,17 @@
   }
   .secListFive {
     width: 250px;
-    height: 12vh;
+    height: 15vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
     border-radius: 0px 360px 360px 0px;
   }
   .secListSix {
     width: 550px;
-    height: 12vh;
+    height: 15vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
   }
-
 }
 
 /* Mobile Portrait (max-width: 480px) */
