@@ -1,0 +1,139 @@
+.servicesMain {
+  padding: 24px 80px; /* Corrected padding format */
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.serviceContents {
+  width: 90vw; /* Adapt for different screen sizes */
+  max-width: 1280px; /* Keeps the laptop view consistent */
+  height: auto; /* Auto height for flexibility */
+  border-radius: 24px;
+  padding: 4.69vw;
+  display: flex;
+  flex-direction: column;
+  gap: 8.75vw; 
+  background-color: #151515;
+}
+
+.contentText {
+  width: 90vw; /* Adapt width to viewport */
+  max-width: 1160px; /* Limit max width for laptop view */
+  display: flex;
+  gap: 2.81vw; /* Converted from 36px */
+}
+
+.contentText1 {
+  flex: 1;
+  font-size: 1.56vw; /* Converted from 20px */
+  line-height: 2.19vw; /* Converted from 28px */
+  color: white;
+}
+
+.contentText2 {
+  flex: 1;
+  font-size: 2vw; /* Converted from 36px */
+  line-height: 3.75vw; /* Converted from 48px */
+  color: white;
+}
+
+span {
+  color: #bbbbbb;
+}
+
+.serviceList {
+  width: 90vw;
+  max-width: 1160px;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.88vw;
+}
+
+/* Responsive Styles */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .serviceContents {
+    gap: 60px;
+    padding: 20px 0px; /* Adjust padding for tablets */
+  }
+
+  .contentText {
+    flex-direction: column; /* content vertically */
+    gap: 30px;
+  }
+
+  .contentText1, .contentText2 {
+    font-size: 1.5rem; /* Adjust text size for tablets */
+    text-align: center;
+  }
+
+  .serviceList {
+    flex-direction: column; /* Stack services list vertically */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .serviceListMain {
+    width: 100%; /* Ensure full width for services */
+    margin-bottom: 20px;
+  }
+}
+
+/* Mobile Landscape (max-width: 768px) */
+@media (max-width: 768px) {
+  .serviceContents {
+    gap: 40px;
+    padding: 20px 0px;
+  }
+
+  .contentText {
+    gap: 20px;
+  }
+
+  .contentText1, .contentText2 {
+    font-size: 1.4rem; /* Adjust for smaller devices */
+    text-align: center;
+  }
+
+  .serviceList {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .serviceListMain {
+    width: 90%;
+    margin-bottom: 16px;
+  }
+}
+
+/* Mobile Portrait (max-width: 480px) */
+@media (max-width: 480px) {
+  .serviceContents {
+    gap: 20px;
+    padding: 20px 0px;
+  }
+
+  .contentText {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contentText1, .contentText2 {
+    font-size: 1.2rem; /* Adjust further for mobile portrait */
+  }
+
+  .serviceList {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .serviceListMain {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+}

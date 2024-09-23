@@ -1,0 +1,44 @@
+.serviceListMain{
+    width: 370.67px;
+    height: 350px;
+    border-radius: 24px;
+    padding: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.serviceListText1{
+    width: 245px;
+    height: 66px;
+    font-weight:500;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.serviceListText2{
+    width: 298.67px;
+    height: 96px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* Responsive Styles */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+    
+    
+  }
+  
+  /* Mobile Landscape (max-width: 768px) */
+  @media (max-width: 768px) {
+    
+      
+  }
+  
+  /* Mobile Portrait (max-width: 480px) */
+  @media (max-width: 480px) {
+   
+  }

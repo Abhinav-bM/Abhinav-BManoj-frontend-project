@@ -1,8 +1,60 @@
-# React + Vite
+# My Vite + React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Installation
+
+To run this project locally, follow the steps below:
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/Abhinav-bM/Abhinav_BManoj-frontend-project.git
+    ```
+
+2. **Navigate into the project directory:**
+
+    ```bash
+    cd Abhinav_BManoj-frontend-project
+    ```
+
+3. **Install dependencies:**
+
+    Make sure you have [Node.js](https://nodejs.org/) installed, then run:
+
+    ```bash
+    npm install
+    ```
+
+4. **Start the development server:**
+
+    ```bash
+    npm run dev
+    ```
+
+## Available Scripts
+
+In the project directory, you can run:
+
+- `npm run dev`: Starts the development server.
+- `npm run build`: Builds the app for production.
+- `npm run preview`: Previews the production build.
+
+## Folder Structure
+
+The project has the following structure:
+
+```bash
+├── public         # Public assets
+├── src            # Source code
+│   ├── assets     # Static assets like images, fonts
+│   ├── components # components
+│       ├── Reusable # Reusable React components
+│   ├── styles     # Global and component-specific styles
+│       ├── reusable # Reusable React components styles
+│   └── App.jsx    # Main application component
+├── .gitignore     # Git ignore file
+├── package.json   # Project dependencies and scripts
+├── README.md      # Documentation
+└── vite.config.js # Vite configuration file

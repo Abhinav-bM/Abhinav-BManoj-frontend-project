@@ -1,59 +1,88 @@
 .hero {
-  display: flex;
-  flex-direction: column;
-  padding: 20px 80px 37px;
-  background: linear-gradient(to top left, #4a4aed 30%, black 70%);
-  color: white;
-  text-align: left; 
-}
-
-.hero h1 {
-  width: auto; 
-  font-size: 5rem;
-}
-
-.hero p {
-  margin-top: 20px;
-  font-size: 1.2rem;
-}
-
-.secDescription {
-  display: flex;
-  flex-direction: row; 
-  justify-content: flex-start; 
-  align-items: center;
-}
-
-.explore-btn {
-  background-color: transparent;
-  border: 2px solid white;
-  color: white;
-  padding: 10px 20px;
-  cursor: pointer;
-  margin-top: 20px;
-}
-
-/* RESPONSIVE STYLES */
-@media (max-width: 768px) {
-  .hero {
-    width: 100%;
-    padding: 30px; /* Reduce padding on smaller screens */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 80px 37px;
+    background: linear-gradient(to top left, #4a4aed 30%, black 70%);
+    color: white;
+    text-align: left; 
   }
-
+  
   .hero h1 {
-    font-size: 3rem; /* Adjust heading size */
+    width: auto; 
+    font-size: 5rem; /* Large heading for desktop */
   }
-
+  
   .hero p {
-    font-size: 1rem; /* Adjust paragraph size */
+    margin-top: 20px;
+    font-size: 1.2rem; /* Default paragraph size */
   }
-
+  
   .secDescription {
-    flex-direction: column; /* Stack items vertically on small screens */
-    align-items: flex-start; /* Align to the left */
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
   }
-
-  .secImg {
-    display: none; /* Hide the image on smaller screens */
+  
+  .explore-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 20px;
   }
-}
+  
+  /* RESPONSIVE STYLES */
+  @media (max-width: 1024px) {
+    .hero {
+      padding: 20px; /* Adjust padding for medium screens */
+    }
+  
+    .hero h1 {
+      font-size: 4rem; /* Slightly smaller heading */
+    }
+  
+    .hero p {
+      font-size: 1.1rem; /* Smaller paragraph size */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero {
+      padding: 20px; /* Reduce padding on smaller screens */
+    }
+  
+    .hero h1 {
+      font-size: 3rem; /* Adjust heading size for mobile */
+    }
+  
+    .hero p {
+      font-size: 1rem; /* Adjust paragraph size for mobile */
+    }
+  
+    .secDescription {
+      flex-direction: column; /* Stack items vertically */
+      align-items: flex-start; /* Align to the left */
+      gap: 10px; /* Add spacing between items */
+    }
+  
+    .secImg {
+      display: none; /* Hide the image on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero {
+      padding: 15px; /* Further reduce padding for small screens */
+    }
+  
+    .hero h1 {
+      font-size: 2.5rem; /* Even smaller heading for small devices */
+    }
+  
+    .hero p {
+      font-size: 0.9rem; /* Smaller paragraph size for small devices */
+    }
+  }
+  
