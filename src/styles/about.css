@@ -17,6 +17,9 @@
 }
 
 .aboutMain p {
+  display: flex;
+  align-items: center;
+  gap: 20px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
