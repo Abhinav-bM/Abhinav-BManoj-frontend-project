@@ -1,4 +1,5 @@
 import About from "./components/About"
+import ContactUs from "./components/ContactUs"
 import Header from "./components/Header"
 import HeroSection from "./components/HeroSection"
 import LeaderSection from "./components/LeaderSection"
@@ -18,6 +19,7 @@ const App = () => {
       <Services />
       <LeaderSection />
       <Testimonial />
+      <ContactUs />
     </>
   )
 }
