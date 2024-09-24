@@ -179,5 +179,8 @@ textarea {
 
 /* Mobile Screens */
 @media (max-width: 480px) {
-
+    .icons{
+        width: 0;
+        height: 0;
+    }
 }
