@@ -8,22 +8,24 @@
 }
 
 /* Image Container */
+/* Image Container */
 .proListMainImg {
   width: 100%;
-  height: 41.48vh;
-  padding-bottom: 72%; /* Maintain aspect ratio for responsiveness */
+  height: 41.48vh; /* As per your calculation */
   border-radius: 24px;
   background-color: #171717;
   overflow: hidden;
+  position: relative; /* Ensure image stays inside container */
 }
 
 .proListMainImg img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: cover; /* Makes sure the image fills the container */
+  object-position: center; /* Centers the image within the div */
 }
-
-/* Text Section */
+/* 
+Text Section */
 .proListText {
   width: 100%;
   height: auto;
@@ -57,7 +59,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-
 }
 .text3 {
   height: 2.41vh;
@@ -68,7 +69,6 @@
   justify-content: center;
   align-items: center;
   font-size: 1rem;
-
 }
 
 .proListTextSecond {
@@ -80,11 +80,11 @@
 /* Responsive Styles */
 @media (max-width: 1024px) {
   .projectListMain {
-    max-width: 100%;
+    /* max-width: 100%; */
   }
 
   .proListMainImg {
-
+    height: 10vh;
   }
 
   .proListTextSecond {
@@ -93,12 +93,31 @@
 }
 
 @media (max-width: 768px) {
+  .projectListMain {
+    gap: 12px;
+  }
+
   .proListMainImg {
-    padding-bottom: 50%;
+    width: 100%;
+    height: 20vh;
   }
 
   .proListTextSecond {
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 0.7rem;
+  }
+
+  .proListText {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
   }
 }
 
@@ -113,15 +132,16 @@
 
   .proListMainImg {
     width: 100%;
-    height: 30vh;
+    height: 25vh;
   }
 
   .proListTextSecond {
     font-size: 20px;
   }
-  .text1,.text2, .text3 {
-   
-    font-size: .7rem;
+  .text1,
+  .text2,
+  .text3 {
+    font-size: 0.7rem;
   }
 
   .proListText {
@@ -132,6 +152,4 @@
     gap: 12px;
     color: white;
   }
-  
-  
 }

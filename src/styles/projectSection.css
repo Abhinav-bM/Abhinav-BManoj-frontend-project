@@ -53,10 +53,16 @@
 @media (max-width: 1024px) {
   .projectSec {
     padding: 40px;
+    flex-direction: column-reverse;
+
+    
   }
   .projSec1,
   .projSec2 {
     width: 100%;
+  }
+  .projSec2First {
+    padding: 0px;
   }
 }
 
@@ -65,12 +71,20 @@
     flex-direction: column-reverse;
     padding: 30px;
   }
+  .projSec1 {
+    gap: 35px;
+  }
 
   .projSec1,
   .projSec2 {
     width: 100%;
   }
-
+  .projSec2First {
+    padding: 0px;
+  }
+  .projSec2Second {
+    gap: 35px;
+  }
   .first {
     font-size: 18px;
   }
