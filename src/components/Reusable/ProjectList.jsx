@@ -6,7 +6,7 @@ const ProjectList = () => {
       <div className="proListMainImg">
         <img
           src=""
-          alt=""
+          alt="Image goes here"
         />
       </div>
       <div className="proListText">

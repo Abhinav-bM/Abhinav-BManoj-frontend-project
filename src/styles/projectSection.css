@@ -1,94 +1,106 @@
 .projectSec {
-    height: auto;
-    padding: 80px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
-    gap: 36px;
-    flex-wrap: wrap;
+  height: auto;
+  padding: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  gap: 36px;
+  flex-wrap: wrap;
+}
+
+/* Project Section 1 */
+.projSec1 {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+
+/* Project Section 2 */
+.projSec2 {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
+.projSec2First {
+  padding: 0 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.first {
+  font-size: 20px;
+  color: white;
+}
+
+.second {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 60px;
+  color: white;
+}
+
+.projSec2Second {
+  display: flex;
+  flex-direction: column;
+  gap: 112px;
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
+  .projectSec {
+    padding: 40px;
   }
-  
-  /* Project Section 1 */
-  .projSec1 {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    gap: 112px;
-  }
-  
-  /* Project Section 2 */
+  .projSec1,
   .projSec2 {
-    width: 48%;
-    display: flex;
-    flex-direction: column;
-    gap: 75px;
+    width: 100%;
   }
-  
-  .projSec2First {
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+}
+
+@media (max-width: 768px) {
+  .projectSec {
+    flex-direction: column-reverse;
+    padding: 30px;
   }
-  
+
+  .projSec1,
+  .projSec2 {
+    width: 100%;
+  }
+
   .first {
-    font-size: 20px;
-    color: white;
+    font-size: 18px;
   }
-  
+
   .second {
-    font-weight: 500;
-    font-size: 60px;
-    line-height: 60px;
-    color: white;
+    font-size: 48px;
   }
-  
-  .projSec2Second {
+}
+
+@media (max-width: 480px) {
+  .projectSec {
+    padding: 30px;
+  }
+  .projSec1 {
     display: flex;
     flex-direction: column;
-    gap: 112px;
+    gap: 35px;
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 1024px) {
-    .projectSec {
-      padding: 40px;
-    }
-    .projSec1, .projSec2 {
-      width: 100%;
-    }
+  .projSec2First {
+    padding: 0px;
   }
-  
-  @media (max-width: 768px) {
-    .projectSec {
-      flex-direction: column-reverse;
-      padding: 30px;
-    }
-  
-    .projSec1, .projSec2 {
-      width: 100%;
-    }
-  
-    .first {
-      font-size: 18px;
-    }
-  
-    .second {
-      font-size: 48px;
-    }
+
+  .second {
+    font-size: 2rem;
+    line-height: 35px;
   }
-  
-  @media (max-width: 480px) {
-    .projectSec {
-      padding: 30px;
-    }
-    .projSec2First {
-      padding: 0 20px;
-    }
-  
-    .second {
-      font-size: 36px;
-      line-height: 45px;
-    }
+  .projSec2 {
+    gap: 35px;
   }
-  
+  .projSec2Second {
+    gap: 35px;
+  }
+}

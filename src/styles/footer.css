@@ -31,48 +31,50 @@ ul {
 /* Responsive */
 /* Tablet Screen */
 @media (max-width: 1024px) {
-    .footerMain {
-        padding: 0px 40px;
-      }
-      .footerLogo {
-        font-size: 1.9rem;
-        font-weight: 600;
-      }
-    
-      .footerContent,
-      ul {
-        display: flex;
-        gap: 18px;
-        list-style: none;
-      }
-      .footerContent,
-      ul, li {
-        font-size: .8rem;
-        list-style: none;
-      }
+  .footerMain {
+    padding: 0px 40px;
+  }
+  .footerLogo {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  .footerContent,
+  ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+  }
+  .footerContent,
+  ul,
+  li {
+    font-size: 0.8rem;
+    list-style: none;
+  }
 }
 
 /* Small Tablet and Large Mobile */
 @media (max-width: 768px) {
-    .footerMain {
-        padding: 0px 30px;
-      }
-      .footerLogo {
-        font-size: 1.9rem;
-        font-weight: 600;
-      }
-    
-      .footerContent,
-      ul {
-        display: flex;
-        gap: 18px;
-        list-style: none;
-      }
-      .footerContent,
-      ul, li {
-        font-size: .8rem;
-        list-style: none;
-      }
+  .footerMain {
+    padding: 0px 30px;
+  }
+  .footerLogo {
+    font-size: 1.9rem;
+    font-weight: 600;
+  }
+
+  .footerContent,
+  ul {
+    display: flex;
+    gap: 18px;
+    list-style: none;
+  }
+  .footerContent,
+  ul,
+  li {
+    font-size: 0.8rem;
+    list-style: none;
+  }
 }
 
 /* Mobile Screens */
@@ -92,8 +94,9 @@ ul {
     list-style: none;
   }
   .footerContent,
-  ul, li {
-    font-size: .7rem;
+  ul,
+  li {
+    font-size: 0.7rem;
     list-style: none;
   }
 }

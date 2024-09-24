@@ -104,7 +104,11 @@
 
 @media (max-width: 480px) {
   .projectListMain {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
   .proListMainImg {
@@ -117,6 +121,15 @@
   .text1,.text2, .text3 {
    
     font-size: .7rem;
+  }
+
+  .proListText {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: white;
   }
   
   

@@ -83,7 +83,7 @@
   }
 
   .aboutContent {
-    width: 100%; /* Wider on smaller screens */
+    width: 100%; 
   }
 
   .btn-area {
@@ -112,7 +112,7 @@
   }
 
   .aboutContent h3 {
-    font-size: 1.5rem; /* Slightly smaller heading */
+    font-size: 1.5rem;
   }
 
   .btn-area {
@@ -138,8 +138,13 @@
     padding: 30px;
   }
 
+  .aboutContent {
+    width: 100%;
+    gap: 20px;
+  }
+
   .aboutContent h3 {
-    font-size: 1.5rem; /* Smaller heading for mobile */
+    font-size: .5rem; 
   }
 
   .aboutMain p {
@@ -148,6 +153,9 @@
   }
 
   .about-btn {
-    width: 80%;
+    width: 50%;
+  }
+  .about-btn div{
+    font-size: 1rem;
   }
 }

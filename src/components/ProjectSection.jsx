@@ -12,7 +12,7 @@ const ProjectSection = () => {
         <div className="projSec2">
 
             <div className="projSec2First">
-                <div className="first">. Featured Works</div>
+                <div className="first">Featured Works</div>
                 <div className="second">Take a look at <br /> our projects</div>
             </div>
             
