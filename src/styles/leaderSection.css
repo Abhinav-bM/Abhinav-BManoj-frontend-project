@@ -288,6 +288,7 @@
   }
 
   .leaderSecMain {
+    width: 100%;
     height: 110vh;
     padding: 40px 0px 0px 0px;
     gap: 25vh;
@@ -311,12 +312,14 @@
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
     border-radius: 0px 360px 360px 0px;
+    overflow: hidden;
   }
   .secListTwo {
-    width: 410px;
+    width: 100%;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
+    overflow: hidden;
   }
 
   .leaderSecList2 {
@@ -326,17 +329,18 @@
     gap: 10px;
   }
   .secListThree {
-    width: 550px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
     border-radius: 0px 360px 360px 0px;
+    overflow: hidden;
   }
   .secListFour {
-    width: 250px;
+    width: 100%;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
+     overflow: hidden;
   }
 
   .leaderSecList3 {
@@ -344,18 +348,20 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    overflow: hidden;
   }
   .secListFive {
-    width: 250px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
     border-radius: 0px 360px 360px 0px;
+    overflow: hidden;
   }
   .secListSix {
-    width: 550px;
+    width: 100%;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
+    overflow: hidden;
   }
 }

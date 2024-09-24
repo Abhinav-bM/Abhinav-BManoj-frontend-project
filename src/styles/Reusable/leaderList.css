@@ -27,6 +27,7 @@
 .content,
 h3 {
   color: white;
+  width: 100%;
   font-weight: 500;
   font-size: 1.8rem;
   margin: 0;
@@ -72,7 +73,7 @@ p {
     border-radius: 0px 360px 360px 0px;
   }
   .content1 {
-    width: 197px;
+    /* width: 197px; */
     height: 2vh;
     display: flex;
     flex-direction: column;
@@ -152,7 +153,7 @@ p {
 /* Mobile Portrait (max-width: 480px) */
 @media (max-width: 480px) {
   .leaderListMain {
-    width: 587px;
+    width: 100%;
     height: 12vh;
     border-radius: 360px;
   }
@@ -162,16 +163,19 @@ p {
     flex-direction: column;
     justify-content: center;
     border-radius: 0px 360px 360px 0px;
+    overflow: hidden;
+
   }
   .content1 {
-    width: 197px;
+    width: 50vw;
     display: flex;
     flex-direction: column;
   }
-  h3 {
+  .content1, h3 {
+    display: none;
     color: white;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: .4rem;
     margin: 0;
   }
 
@@ -179,8 +183,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 4vw;
-    height: 3vh;
+    width: 3vw;
+    height: 2.5vh;
     border-radius: 50px;
     border: 1px solid #ffffff4d;
   }
