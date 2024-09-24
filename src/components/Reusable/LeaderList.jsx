@@ -10,12 +10,16 @@ const LeaderList = ({ bgc, color }) => {
           <p className="none">CEO Founder</p>
         </div>
         <div className="content2">
-          <div className="icons">
+          <div className="iconss">
             <i className="fab fa-twitter"></i>
           </div>
-          <div className="icons">  <i className="fab fa-instagram"></i>
+          <div className="iconss">
+            {" "}
+            <i className="fab fa-instagram"></i>
           </div>
-          <div className="icons">  <i className="fab fa-linkedin"></i>
+          <div className="iconss">
+            {" "}
+            <i className="fab fa-linkedin"></i>
           </div>
         </div>
       </div>

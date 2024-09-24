@@ -13,8 +13,9 @@
   justify-content: center;
   border-radius: 0px 360px 360px 0px;
   font-size: 1.5rem;
-  padding: 24px, 0px, 24px, 0px;
-  gap: 24px;
+  padding: 24px 0px 24px 10px;
+  gap: 36px;
+  overflow: hidden;
 }
 
 .content1 {
@@ -22,23 +23,19 @@
   height: 55px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 10px;
 }
-.content,
-h3 {
+.content1 h3 {
   color: white;
   width: 100%;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin: 0;
   gap: 5vh;
 }
-.content,
-p {
-  margin: 0;
-  font-weight: 200;
-  font-size: 0.9rem;
-  line-height: 28px;
+.none{
+  color: white;
+  font-size: 1rem;
 }
 
 .content2 {
@@ -47,7 +44,7 @@ p {
   height: 36px;
   gap: 10px;
 }
-.icons {
+.iconss {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -55,6 +52,9 @@ p {
   height: 36px;
   border-radius: 50px;
   border: 1px solid #ffffff4d;
+}
+.iconss i{
+  color: white;
 }
 /* Responsive Styles */
 
@@ -65,6 +65,7 @@ p {
     height: 18vh;
     border-radius: 360px;
   }
+
   .content {
     grid-column: 2;
     display: flex;
@@ -73,36 +74,33 @@ p {
     border-radius: 0px 360px 360px 0px;
   }
   .content1 {
-    /* width: 197px; */
     height: 2vh;
     display: flex;
     flex-direction: column;
+    gap: 5px;
   }
-  h3 {
+  .content1 h3 {
     color: white;
     font-weight: 500;
     font-size: 1rem;
-    margin: 0;
   }
-  .content,
-  p {
-    margin: 0;
+  .content p {
     font-weight: 200;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
   }
-  .icons {
+
+  .content2 {
+    display: flex;
+    gap: 10px;
+  }
+  .iconss {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18px;
-    height: 18px;
+    width: 3.5vw;
+    height: 6vh;
     border-radius: 50px;
     border: 1px solid #ffffff4d;
-  }
-  .content2 {
-    display: flex;
-    width: 128px;
-    gap: 10px;
   }
 }
 
@@ -120,31 +118,33 @@ p {
     flex-direction: column;
     justify-content: center;
     border-radius: 0px 360px 360px 0px;
+    padding: 2px 5px;
   }
   .content1 {
     width: 197px;
     height: 1.6vh;
     display: flex;
     flex-direction: column;
+    padding: 0;
   }
-  h3 {
+  .content1 h3 {
     color: white;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     margin: 0;
   }
-  .content,
+  .content
   p {
     margin: 0;
     font-weight: 200;
     font-size: 0.4rem;
   }
-  .icons {
+  .iconss {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 18px;
-    height: 18px;
+    width: 15px;
+    height: 15px;
     border-radius: 50px;
     border: 1px solid #ffffff4d;
   }
@@ -159,32 +159,30 @@ p {
   }
 
   .content {
-    grid-column: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-radius: 0px 360px 360px 0px;
+    padding: 0px 0px 0px 5px;
+    gap: 15px;
   }
   .content1 {
+    width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .content1, h3 {
-    width: 100%;
+  .content1 h3 {
     color: white;
     font-weight: 500;
-    font-size: .7rem;
+    font-size: .6rem;
   }
 
-
-  .icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .iconss {
     width: 3vw;
     height: 2.5vh;
     border-radius: 50px;
     border: 1px solid #ffffff4d;
+  }
+  .none {
+    display: none;
+    color: white;
+    font-size: .8rem;
   }
   .content2 {
     display: flex;
