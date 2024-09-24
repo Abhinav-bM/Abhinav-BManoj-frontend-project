@@ -28,6 +28,8 @@
 
 .contentText1 {
   flex: 1;
+  display: flex;
+  gap: 15px;
   font-size: 1.56vw; 
   line-height: 2.19vw; 
   color: white;
@@ -123,11 +125,14 @@ span {
 
   .contentText1 {
     font-size: 1.2rem; 
+    text-align: start;
+    padding-left: 20px;
   }
   .contentText2 {
     font-size: .8rem;
     line-height: 18px;
-    padding: 5px;
+    text-align: start;
+    padding: 5px 20px;
   }
 
   .serviceList {

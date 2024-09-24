@@ -6,7 +6,7 @@ const Services = () => {
     <section className="servicesMain" style={{paddingTop: "10vh"}}>
       <div className="serviceContents">
         <div className="contentText">
-          <div className="contentText1">Our services</div>
+          <div className="contentText1"><div className="ellipse"></div>Our services</div>
           <div className="contentText2">
             We are a close-knit team of experts dedicated to crafting memorable
             and <span>
