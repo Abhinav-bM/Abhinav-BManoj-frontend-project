@@ -11,18 +11,18 @@
 /* Image Container */
 .proListMainImg {
   width: 100%;
-  height: 448pxh; /* As per your calculation */
+  height: 448px;
   border-radius: 24px;
   background-color: #171717;
   overflow: hidden;
-  position: relative; /* Ensure image stays inside container */
+  position: relative; 
 }
 
 .proListMainImg img {
   width: 100%;
   height: 100%;
-  object-fit: cover; /* Makes sure the image fills the container */
-  object-position: center; /* Centers the image within the div */
+  object-fit: cover; 
+  object-position: center; 
 }
 /* 
 Text Section */
@@ -78,13 +78,32 @@ Text Section */
 }
 
 /* Responsive Styles */
+@media (max-width: 1059px) { 
+  .proListMainImg {
+    width: 100%;
+    height: 320px;
+    border-radius: 24px;
+    background-color: #171717;
+    overflow: hidden;
+    position: relative; 
+  }
+
+  .proListTextSecond {
+    font-size: 28px;
+  }
+}
 @media (max-width: 1024px) {
   .projectListMain {
     /* max-width: 100%; */
   }
 
   .proListMainImg {
-    height: 10vh;
+    width: 100%;
+    height: 320px;
+    border-radius: 24px;
+    background-color: #171717;
+    overflow: hidden;
+    position: relative; 
   }
 
   .proListTextSecond {
@@ -99,7 +118,11 @@ Text Section */
 
   .proListMainImg {
     width: 100%;
-    height: 20vh;
+    height: 300px;
+    border-radius: 24px;
+    background-color: #171717;
+    overflow: hidden;
+    position: relative; 
   }
 
   .proListTextSecond {
