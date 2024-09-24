@@ -1,5 +1,6 @@
-import "../styles/leaderSection.css";
-import LeaderList from "./Reusable/LeaderList";
+import "../styles/sections/leaderSection.css";
+import LeaderList from "../components/LeaderList";
+
 const LeaderSection = () => {
   return (
     <section className="leaderSecMain">

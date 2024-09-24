@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "../../styles/Reusable/servicesList.css";
+import "../styles/components/servicesList.css";
 
 const ServicesList = ({ color1, color2, text }) => {
   return (

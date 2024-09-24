@@ -1,4 +1,4 @@
-import "../styles/about.css";
+import "../styles/sections/about.css";
 const About = () => {
   return (
     <section className="aboutSection">

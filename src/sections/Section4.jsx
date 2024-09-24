@@ -1,4 +1,4 @@
-import "../styles/section4.css";
+import "../styles/sections/section4.css";
 
 const Section4 = () => {
   return (

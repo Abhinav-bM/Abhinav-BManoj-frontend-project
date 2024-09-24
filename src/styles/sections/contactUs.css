@@ -59,7 +59,7 @@
   gap: 36px;
 }
 
-/* contact section are  */
+/* contact section */
 .contactSec2Form {
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
 .message {
   display: flex;
   flex-direction: column;
-  gap: 8px; /* Reduced gap for better alignment */
+  gap: 8px;
 }
 
 /* Label styling */
@@ -81,7 +81,7 @@ label {
   font-size: 14px;
 }
 
-/* Base styling for all input elements */
+/* styling for all input elements */
 input,
 textarea {
   border-bottom: 1px solid #ffffff26;
@@ -100,7 +100,7 @@ textarea {
 
 /* Common input styles */
 .custom-input-common {
-  padding-bottom: 22px; /* Padding for name and email inputs */
+  padding-bottom: 22px;
   border-radius: 4px;
   font-size: 16px;
   box-sizing: border-box;
@@ -108,14 +108,14 @@ textarea {
 
 /* Styling for message textarea */
 .custom-input {
-  padding-bottom: 60px; /* Padding for the message input */
+  padding-bottom: 60px;
   border-radius: 4px;
   font-size: 16px;
   box-sizing: border-box;
-  resize: none; /* Prevent resizing of the textarea */
+  resize: none;
 }
 
-/* Red asterisk for required fields */
+/* Red for required fields */
 .redStar {
   color: red;
 }

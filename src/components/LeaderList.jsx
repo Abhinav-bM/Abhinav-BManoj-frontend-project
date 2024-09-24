@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "../../styles/Reusable/leaderList.css";
+import "../styles/components/leaderList.css";
 
 const LeaderList = ({ bgc, color }) => {
   return (

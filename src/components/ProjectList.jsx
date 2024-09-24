@@ -1,5 +1,5 @@
-import "../../styles/Reusable/projectList.css";
-import robo from "../../assets/images/robo.jpg"
+import "../styles/components/projectList.css";
+import robo from "../assets/images/robo.jpg"
 
 const ProjectList = () => {
   return (

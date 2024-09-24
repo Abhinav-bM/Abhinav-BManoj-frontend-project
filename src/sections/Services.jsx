@@ -1,5 +1,5 @@
-import "../styles/services.css";
-import ServicesList from "./Reusable/ServicesList";
+import "../styles/sections/services.css";
+import ServicesList from "../components/ServicesList";
 
 const Services = () => {
   return (

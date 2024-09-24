@@ -56,6 +56,7 @@
 .iconss i{
   color: white;
 }
+
 /* Responsive Styles */
 
 /* Tablet (max-width: 1024px) */
@@ -150,7 +151,7 @@
   }
 }
 
-/* Mobile Portrait (max-width: 480px) */
+/* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .leaderListMain {
     width: 100%;

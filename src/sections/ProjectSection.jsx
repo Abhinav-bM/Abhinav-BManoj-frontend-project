@@ -1,5 +1,5 @@
-import "../styles/projectSection.css";
-import ProjectList from "./Reusable/ProjectList";
+import "../styles/sections/projectSection.css";
+import ProjectList from "../components/ProjectList";
 
 const ProjectSection = () => {
   return (

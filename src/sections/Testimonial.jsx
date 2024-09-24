@@ -1,4 +1,4 @@
-import "../styles/testmonial.css";
+import "../styles/sections/testmonial.css";
 import avatar from "../assets/images/kirelAvatar.png"
 
 const Testimonial = () => {

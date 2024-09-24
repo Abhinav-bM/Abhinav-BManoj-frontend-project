@@ -9,7 +9,7 @@
 }
 
 .aboutMain {
-  width: 40%; /* Change from fixed to percentage */
+  width: 40%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
 }
 
 .aboutContent {
-  width: 55%; /* Change from fixed to percentage */
+  width: 55%;
   height: auto;
   display: flex;
   flex-direction: column;
