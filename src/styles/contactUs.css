@@ -163,7 +163,7 @@ textarea {
 @media (max-width: 768px) {
     .contactUsMain {
         flex-direction: column;
-        padding-left: 45px;
+        padding-left: 30px;
       }
       .contactSec1 {
         gap: 10px;
@@ -179,5 +179,5 @@ textarea {
 
 /* Mobile Screens */
 @media (max-width: 480px) {
-    
+
 }
