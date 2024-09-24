@@ -45,11 +45,11 @@
 /* Mobile (max-width: 480px) */
 @media (max-width: 480px) {
   .serviceListMain {
-    height: 35vh;
+    height: 40vh;
   }
   .serviceListText1{
     font-size: 2rem;
-    line-height: 5vh;
+    line-height: 30px;
   }
   .serviceListText2 {
  
