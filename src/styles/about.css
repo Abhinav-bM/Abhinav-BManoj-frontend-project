@@ -81,12 +81,12 @@
   }
 
   .aboutMain {
-    width: 80%; 
+    width: 80%;
     text-align: start;
   }
 
   .aboutContent {
-    width: 100%; 
+    width: 100%;
   }
 
   .btn-area {
@@ -138,9 +138,9 @@
 /* Mobile Screens */
 @media (max-width: 480px) {
   .aboutMain {
-   
     gap: 15px;
   }
+
   .aboutSection {
     padding: 30px;
   }
@@ -151,7 +151,7 @@
   }
 
   .aboutContent h3 {
-    font-size: 1rem; 
+    font-size: 1rem;
   }
 
   .aboutMain p {
@@ -162,7 +162,7 @@
   .about-btn {
     width: 40%;
   }
-  .about-btn div{
-    font-size: .9rem;
+  .about-btn div {
+    font-size: 0.9rem;
   }
 }

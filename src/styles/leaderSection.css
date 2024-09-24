@@ -15,12 +15,15 @@
 }
 
 .leaderSecText1 {
+  display: flex;
   width: 500px;
+  align-items: center;
   height: 96px;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: white;
+  gap: 20px;
 }
 .leaderSecText2 {
   font-weight: 400;
@@ -279,7 +282,7 @@
   }
   .leaderSecText1 {
     width: 45vw;
-    font-size: 1.6rem;
+    font-size: 1rem;
   }
   .leaderSecText2 {
     font-weight: 400;

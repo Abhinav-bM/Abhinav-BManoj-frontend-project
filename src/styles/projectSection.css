@@ -32,6 +32,9 @@
 }
 
 .first {
+  display: flex;
+  align-items: center;
+  gap: 20px;
   font-size: 20px;
   color: white;
 }
@@ -50,7 +53,7 @@
 }
 
 /* Responsive Styles */
-@media (max-width: 1059px) { 
+@media (max-width: 1059px) {
   .projectSec {
     padding: 40px;
   }
@@ -138,7 +141,7 @@
   }
 
   .second {
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 35px;
   }
   .projSec2 {
@@ -146,5 +149,8 @@
   }
   .projSec2Second {
     gap: 35px;
+  }
+  .first {
+    font-size: 1rem;
   }
 }
