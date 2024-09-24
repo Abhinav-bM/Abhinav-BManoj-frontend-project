@@ -4,7 +4,7 @@ const LeaderSection = () => {
   return (
     <section className="leaderSecMain">
       <div className="leaderSecText">
-        <div className="leaderSecText1">. Our leader</div>
+        <div className="leaderSecText1">Our leader</div>
         <div className="leaderSecText2">
           Each product is crafted with passion and <br /> dedication. Meet our
           leader !

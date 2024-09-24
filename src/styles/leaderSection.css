@@ -272,7 +272,7 @@
 /* Mobile Portrait (max-width: 480px) */
 @media (max-width: 480px) {
   .leaderSecText {
-    padding: 0px 60px;
+    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     gap: 36px;
@@ -307,7 +307,7 @@
   }
 
   .secListOne {
-    width: 450px;
+    width: 200px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
@@ -315,7 +315,7 @@
     overflow: hidden;
   }
   .secListTwo {
-    width: 100%;
+    width: 200px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
@@ -329,6 +329,7 @@
     gap: 10px;
   }
   .secListThree {
+    width: 350px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
@@ -336,7 +337,7 @@
     overflow: hidden;
   }
   .secListFour {
-    width: 100%;
+    width: 150px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 360px 0px 0px 360px;
@@ -351,6 +352,7 @@
     overflow: hidden;
   }
   .secListFive {
+    width: 150px;
     height: 12vh;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-left: none;
