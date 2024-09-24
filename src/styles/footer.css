@@ -1,0 +1,99 @@
+.footerMain {
+  padding: 0px 80px;
+  display: flex;
+  gap: 10px;
+  background-color: black;
+}
+.footerTextLogo {
+  width: 100%;
+  border-top: 1px solid #ffffff33;
+  padding: 24px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerLogo {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.footerContent {
+  display: flex;
+  color: white;
+}
+.footerContent,
+ul {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+/* Responsive */
+/* Tablet Screen */
+@media (max-width: 1024px) {
+    .footerMain {
+        padding: 0px 40px;
+      }
+      .footerLogo {
+        font-size: 1.9rem;
+        font-weight: 600;
+      }
+    
+      .footerContent,
+      ul {
+        display: flex;
+        gap: 18px;
+        list-style: none;
+      }
+      .footerContent,
+      ul, li {
+        font-size: .8rem;
+        list-style: none;
+      }
+}
+
+/* Small Tablet and Large Mobile */
+@media (max-width: 768px) {
+    .footerMain {
+        padding: 0px 30px;
+      }
+      .footerLogo {
+        font-size: 1.9rem;
+        font-weight: 600;
+      }
+    
+      .footerContent,
+      ul {
+        display: flex;
+        gap: 18px;
+        list-style: none;
+      }
+      .footerContent,
+      ul, li {
+        font-size: .8rem;
+        list-style: none;
+      }
+}
+
+/* Mobile Screens */
+@media (max-width: 480px) {
+  .footerMain {
+    padding: 0px 30px;
+  }
+  .footerLogo {
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .footerContent,
+  ul {
+    display: flex;
+    gap: 14px;
+    list-style: none;
+  }
+  .footerContent,
+  ul, li {
+    font-size: .7rem;
+    list-style: none;
+  }
+}

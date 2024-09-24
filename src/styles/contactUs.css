@@ -156,31 +156,26 @@ textarea {
   .contactSec2 {
     width: 100%;
   }
-  
 }
 
 /* Small Tablet and Large Mobile */
 @media (max-width: 768px) {
-    .contactUsMain {
-        flex-direction: column;
-        padding-left: 30px;
-      }
-      .contactSec1 {
-        gap: 10px;
-      }
-    
-      .sec1Content1Text {
-        font-size: 2rem;
-      }
-      .contactSec2 {
-        width: 100%;
-      }
+  .contactUsMain {
+    flex-direction: column;
+    padding-left: 30px;
+  }
+  .contactSec1 {
+    gap: 10px;
+  }
+
+  .sec1Content1Text {
+    font-size: 2rem;
+  }
+  .contactSec2 {
+    width: 100%;
+  }
 }
 
 /* Mobile Screens */
 @media (max-width: 480px) {
-    .icons{
-        width: 0;
-        height: 0;
-    }
 }
