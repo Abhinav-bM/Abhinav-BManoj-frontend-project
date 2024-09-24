@@ -1,3 +1,266 @@
-.testimonialMain{
+.testimonialMain {
+  height: auto;
+  padding: 80px;
+  display: flex;
+  gap: 36px;
+  background-color: black;
+  background: linear-gradient(to top right, #4a4aed 1%, black 50%);
+}
 
+.testimonialSec1 {
+  width: 52vw;
+  height: auto;
+}
+
+.subHeading {
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: white;
+}
+
+.ellipse {
+  width: 8px;
+  height: 8px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.testimonialSec2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.sec2Text {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.sec2Text,
+h4 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 2.2rem;
+  color: white;
+}
+
+.textDetail {
+  width: 50vw;
+  height: auto;
+  display: flex;
+  gap: 20px;
+}
+
+.avatar {
+  width: 4vw;
+  height: 5vh;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatarText {
+  width: 30vw;
+  height: 38px;
+  display: flex;
+  flex-direction: column;
+}
+
+.avatarText,
+h6 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.avatarText,
+p {
+  margin: 0;
+  font-size: 0.65rem;
+}
+
+.testBtn {
+  width: 160px;
+  height: 72px;
+  display: flex;
+  gap: 16px;
+}
+
+.testBtn1,
+.testBtn2 {
+  width: 72px;
+  height: 72px;
+  border-radius: 360px;
+  border: 1px solid #ffffff4d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Responsive Styles */
+
+/* Tablet (max-width: 1024px) */
+@media (max-width: 1024px) {
+  .testimonialMain {
+    padding: 60px 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .testimonialSec1,
+  .testimonialSec2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .subHeading {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    text-align: start;
+    font-size: 1.4rem;
+  }
+
+  .textDetail {
+    width: 100%;
+    align-items: center;
+  }
+
+  .avatar {
+    width: 7vw;
+    height: auto;
+  }
+
+  .avatarText {
+    width: auto;
+    text-align: center;
+  }
+
+  .avatarText,
+  h6 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+
+  .avatarText,
+  p {
+    margin: 0;
+    font-size: 0.6rem;
+  }
+
+  .testBtn1,
+  .testBtn2 {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Mobile Landscape (max-width: 768px) */
+@media (max-width: 768px) {
+  .testimonialMain {
+    padding: 40px 30px;
+  }
+
+  .subHeading {
+    font-size: 0.9rem;
+  }
+  .sec2Text {
+    text-align: start;
+  }
+  h4 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .textDetail {
+    width: 100%;
+    display: flex;
+  }
+
+  .avatar {
+    width: 10%;
+    height: auto;
+  }
+
+  .testBtn {
+    display: flex;
+    width: 100%;
+  }
+  .testBtn1,
+  .testBtn2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+    border: 1px solid #ffffff4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Mobile Portrait (max-width: 480px) */
+@media (max-width: 480px) {
+  .testimonialMain {
+    padding: 20px;
+  }
+
+  .subHeading {
+    font-size: 0.9rem;
+  }
+  .sec2Text {
+    text-align: start;
+  }
+  h4 {
+    font-size: 1.3rem;
+    line-height: 1.5;
+  }
+
+  .textDetail {
+    width: 100%;
+    gap: 10px;
+  }
+
+  .avatar {
+    width: 10%;
+    height: auto;
+  }
+
+  .avatarText {
+    text-align: center;
+  }
+
+  .testBtn {
+    display: flex;
+    width: 100%;
+
+  }
+  .testBtn1,
+  .testBtn2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+    border: 1px solid #ffffff4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
