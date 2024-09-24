@@ -154,30 +154,28 @@ p {
 @media (max-width: 480px) {
   .leaderListMain {
     width: 100%;
-    height: 12vh;
+    height: 12.5vh;
     border-radius: 360px;
   }
+
   .content {
     grid-column: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     border-radius: 0px 360px 360px 0px;
-    overflow: hidden;
-
   }
   .content1 {
-    width: 50vw;
     display: flex;
     flex-direction: column;
   }
   .content1, h3 {
-    display: none;
+    width: 100%;
     color: white;
     font-weight: 500;
-    font-size: .4rem;
-    margin: 0;
+    font-size: .7rem;
   }
+
 
   .icons {
     display: flex;
@@ -187,9 +185,6 @@ p {
     height: 2.5vh;
     border-radius: 50px;
     border: 1px solid #ffffff4d;
-  }
-  .none {
-    display: none;
   }
   .content2 {
     display: flex;
