@@ -51,6 +51,9 @@
   
   /* Responsive Styles */
   @media (max-width: 1024px) {
+    .projectSec {
+      padding: 40px;
+    }
     .projSec1, .projSec2 {
       width: 100%;
     }
@@ -59,7 +62,7 @@
   @media (max-width: 768px) {
     .projectSec {
       flex-direction: column-reverse;
-      padding: 40px;
+      padding: 30px;
     }
   
     .projSec1, .projSec2 {
@@ -76,6 +79,9 @@
   }
   
   @media (max-width: 480px) {
+    .projectSec {
+      padding: 30px;
+    }
     .projSec2First {
       padding: 0 20px;
     }

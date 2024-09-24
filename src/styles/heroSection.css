@@ -5,6 +5,8 @@
     background: linear-gradient(to top left, #4a4aed 30%, black 70%);
     color: white;
     text-align: left; 
+    position: relative;
+    gap: 15px;
   }
   
   .hero h1 {
@@ -29,16 +31,33 @@
     border: 2px solid white;
     color: white;
     padding: 10px 20px;
+    border-radius: 30px;
     cursor: pointer;
     margin-top: 20px;
+    display: flex;
+    gap: 10px;
+  
+  }
+
+  .secImg{
+    position: absolute;
+    margin-left: 30%;
+    overflow: hidden;
+    border-radius: 20px 0px 0px 0px;
+  }
+  .secImg img{
+    width: 983px;
+    max-height:270px;
   }
   
   /* RESPONSIVE STYLES */
   @media (max-width: 1024px) {
     .hero {
-      padding: 20px; /* Adjust padding for medium screens */
+
+      padding: 20px 80px 37px 40px;
+      gap: 0px;
+     
     }
-  
     .hero h1 {
       font-size: 4rem; /* Slightly smaller heading */
     }
@@ -46,11 +65,18 @@
     .hero p {
       font-size: 1.1rem; /* Smaller paragraph size */
     }
+    .secImg img{
+      width: 60vw;
+      height: 30vh;
+    }
+     .secImg {
+      display: none; /* Hide the image on smaller screens */
+    }
   }
   
   @media (max-width: 768px) {
     .hero {
-      padding: 20px; /* Reduce padding on smaller screens */
+      padding: 30px; /* Reduce padding on smaller screens */
     }
   
     .hero h1 {
@@ -74,15 +100,15 @@
   
   @media (max-width: 480px) {
     .hero {
-      padding: 15px; /* Further reduce padding for small screens */
+      padding: 30px; 
     }
   
     .hero h1 {
-      font-size: 2.5rem; /* Even smaller heading for small devices */
+      font-size: 2.5rem; 
     }
   
     .hero p {
-      font-size: 0.9rem; /* Smaller paragraph size for small devices */
+      font-size: 0.9rem; 
     }
   }
   

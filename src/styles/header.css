@@ -86,7 +86,28 @@ nav ul li:hover {
     transform: translateY(0); /* Slide down into position */
 }
 
-/* Media Queries for Responsive Design */
+/* Media Queries */
+
+@media (max-width: 1024px) {
+    header {
+        padding: 1rem 40px;
+    }
+    nav ul {
+        gap: 20px;
+        
+    }
+    .cta1, .cta2 {
+        padding: 10px 20px;
+        background-color: #6241ff;
+        color: white;
+        border-radius: 25px;
+        border: none;
+        font-size: .8rem;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    
+}
 
 /* Mobile View */
 @media (max-width: 768px) {

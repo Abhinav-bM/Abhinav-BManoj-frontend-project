@@ -220,7 +220,7 @@ p {
 /* Mobile Portrait (max-width: 480px) */
 @media (max-width: 480px) {
   .testimonialMain {
-    padding: 20px;
+    padding: 30px;
   }
 
   .subHeading {

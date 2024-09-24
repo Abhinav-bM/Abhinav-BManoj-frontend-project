@@ -3,7 +3,8 @@ const About = () => {
   return (
     <section className="aboutSection">
         <div className="aboutMain">
-            <p>. Who we are ?</p>
+            <p>
+            Who we are ?</p>
             <div className="btn-area">
             
             </div>

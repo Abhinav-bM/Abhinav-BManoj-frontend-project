@@ -13,12 +13,15 @@ const Hero = () => {
         <div>
           <p>
             Based in San Francisco, we’re a digital <br /> products design &
-            development studio <br /> that is passionate about creating high <br /> applicability digital experiences.
+            development studio <br /> that is passionate about creating high{" "}
+            <br /> applicability digital experiences.
           </p>
-          <button className="explore-btn">Explore</button>
+          <button className="explore-btn">
+            Explore <i className="fas fa-paper-plane"></i>
+          </button>
         </div>
         <div className="secImg">
-          <img src="your-image-url.jpg" alt="Description of the image" />
+          <img src="" alt="Image goes here..." />
         </div>
       </div>
     </section>
