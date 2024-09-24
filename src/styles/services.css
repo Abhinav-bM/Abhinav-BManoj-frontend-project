@@ -1,5 +1,5 @@
 .servicesMain {
-  padding: 24px 80px; 
+  padding: 24px 80px;
   gap: 10px;
   display: flex;
   justify-content: center;
@@ -8,37 +8,38 @@
 }
 
 .serviceContents {
-  width: 90vw; 
-  max-width: 1280px; 
-  height: auto; 
+  width: 90vw;
+  max-width: 1280px;
+  height: auto;
   border-radius: 24px;
   padding: 4.69vw;
   display: flex;
   flex-direction: column;
-  gap: 8.75vw; 
+  gap: 8.75vw;
   background-color: #151515;
 }
 
 .contentText {
-  width: 90vw; 
-  max-width: 1160px; 
+  width: 90vw;
+  max-width: 1160px;
   display: flex;
-  gap: 2.81vw; 
+  gap: 2.81vw;
 }
 
 .contentText1 {
   flex: 1;
   display: flex;
+  align-items: center;
   gap: 15px;
-  font-size: 1.56vw; 
-  line-height: 2.19vw; 
+  font-size: 1.56vw;
+  line-height: 2.19vw;
   color: white;
 }
 
 .contentText2 {
   flex: 1;
-  font-size: 2vw; 
-  line-height: 3.75vw; 
+  font-size: 2vw;
+  line-height: 3.75vw;
   color: white;
 }
 
@@ -51,7 +52,7 @@ span {
   max-width: 1160px;
   display: flex;
   justify-content: space-between;
-  gap: 1.88vw;
+  gap: 1vw;
 }
 
 /* Responsive Styles */
@@ -60,27 +61,34 @@ span {
 @media (max-width: 1024px) {
   .serviceContents {
     gap: 60px;
-    padding: 20px 0px; 
+    padding: 20px 0px;
   }
 
   .contentText {
-    flex-direction: column; 
+    flex-direction: column;
     gap: 30px;
   }
 
-  .contentText1, .contentText2 {
-    font-size: 1.5rem; 
-    text-align: center;
+  .contentText1 {
+    font-size: 1.6rem;
+    text-align: start;
+    padding-left: 20px;
+  }
+  .contentText2 {
+    font-size: 1.6rem;
+    line-height: 30px;
+    text-align: start;
+    padding: 5px 20px;
   }
 
   .serviceList {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: center;
     gap: 20px;
   }
 
   .serviceListMain {
-    width: 100%; 
+    width: 100%;
     margin-bottom: 20px;
   }
 }
@@ -96,8 +104,16 @@ span {
     gap: 20px;
   }
 
-  .contentText1, .contentText2 {/* Adjust for smaller devices */
-    text-align: center;
+  .contentText1 {
+    font-size: 1.2rem;
+    text-align: start;
+    padding-left: 20px;
+  }
+  .contentText2 {
+    font-size: 1.4rem;
+    line-height: 26px;
+    text-align: start;
+    padding: 5px 20px;
   }
 
   .serviceList {
@@ -124,13 +140,13 @@ span {
   }
 
   .contentText1 {
-    font-size: 1.2rem; 
+    font-size: 1rem;
     text-align: start;
     padding-left: 20px;
   }
   .contentText2 {
-    font-size: .8rem;
-    line-height: 18px;
+    font-size: 1rem;
+    line-height: 22px;
     text-align: start;
     padding: 5px 20px;
   }
