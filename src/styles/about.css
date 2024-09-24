@@ -134,6 +134,10 @@
 
 /* Mobile Screens */
 @media (max-width: 480px) {
+  .aboutMain {
+   
+    gap: 15px;
+  }
   .aboutSection {
     padding: 30px;
   }
@@ -144,7 +148,7 @@
   }
 
   .aboutContent h3 {
-    font-size: .5rem; 
+    font-size: 1rem; 
   }
 
   .aboutMain p {
@@ -153,9 +157,9 @@
   }
 
   .about-btn {
-    width: 50%;
+    width: 40%;
   }
   .about-btn div{
-    font-size: 1rem;
+    font-size: .9rem;
   }
 }
