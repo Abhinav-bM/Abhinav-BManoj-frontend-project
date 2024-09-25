@@ -1,11 +1,11 @@
 import { useState } from "react";
-import "../styles/sections/header.css";
+import "../styles/components/header.css";
 
 const Header = () => {
   const [menuActive, setMenuActive] = useState(false);
 
   const toggleMenu = () => {
-    setMenuActive((prevState) => !prevState); // Simplified toggle logic
+    setMenuActive((prevState) => !prevState);
   };
 
   return (
