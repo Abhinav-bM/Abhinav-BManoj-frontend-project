@@ -50,9 +50,11 @@ The project has the following structure:
 ├── src            # Source code
 │   ├── assets     # Static assets like images, fonts
 │   ├── components # components
-│       ├── Reusable # Reusable React components
-│   ├── styles     # Global and component-specific styles
-│       ├── reusable # Reusable React components styles
+│   ├── pages
+│   ├── sections
+│   ├── styles     
+│       ├── components # Reusable React components styles
+│       ├── sections # section styles
 │   └── App.jsx    # Main application component
 ├── .gitignore     # Git ignore file
 ├── package.json   # Project dependencies and scripts
