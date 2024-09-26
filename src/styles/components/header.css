@@ -3,7 +3,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 80px;
+  padding: 24px 80px;
   background-color: #000000;
   color: white;
 }
@@ -12,7 +12,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px;
+  gap: 36px;
 }
 
 .logo {
@@ -20,7 +20,7 @@ header {
   font-weight: bold;
 }
 
-nav {
+.menu {
   border: 2px solid rgba(178, 173, 173, 0.262);
   border-radius: 30px;
   position: relative;
@@ -28,23 +28,28 @@ nav {
 
 nav ul {
   display: flex;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   gap: 30px;
   padding: 0;
   margin: 5px;
+  height: 30px;
 }
 
-nav ul li {
-  font-size: 0.76rem;
+nav ul li a {
+  font-size: 1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
   cursor: pointer;
   transition: color 0.3s;
-  background-color: rgba(178, 173, 173, 0.262);
   border-radius: 30px;
   padding: 6px 12px;
 }
 
-nav ul li:hover {
-  color: #a3a3ff;
+nav ul li a.active {
+  background-color: rgba(178, 173, 173, 0.262);
 }
 
 .cta1,
@@ -70,8 +75,18 @@ nav ul li:hover {
   align-items: center;
   list-style: none;
   padding: 0;
-  gap: 10px;
+  gap: 18px;
   font-size: 0.8rem;
+}
+
+.mobileNav ul li a {
+ text-decoration: none;
+ color: white;
+}
+.mobileNav ul li a.active {
+  padding: 5px 10px;
+  border-radius: 360px;
+  background-color: rgba(178, 173, 173, 0.262);
 }
 
 .mobileNav {
@@ -95,7 +110,7 @@ nav ul li:hover {
     padding: 1rem 40px;
   }
   nav ul {
-    gap: 20px;
+    gap: 10px;
   }
   .cta1,
   .cta2 {
@@ -107,6 +122,11 @@ nav ul li:hover {
     font-size: 0.8rem;
     cursor: pointer;
     transition: background-color 0.3s;
+  }
+  nav ul li a {
+    font-size: .8rem;
+    font-weight: 400;
+    padding: 6px 12px;
   }
 }
 
@@ -132,6 +152,8 @@ nav ul li:hover {
 
   .cta2 {
     display: block;
+    padding: 8px 10px;
+    font-size: 0.7rem;
   }
 
   .hamburger {
